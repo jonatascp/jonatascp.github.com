@@ -1,0 +1,178 @@
+#top .avia_styleswitcher{
+position: absolute;
+left:-75px;
+top:23px;
+padding:20px 20px 20px 100px;
+border-radius:5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background: #fff;
+border:1px solid #e1e1e1;
+z-index: 9999;
+font-size: 11px;
+color:#777;
+line-height: 16px;
+-moz-box-shadow: 1px 1px 10px #000000;
+-webkit-box-shadow: 1px 1px 10px #000000;
+box-shadow: 1px 1px 10px #000000;
+min-height:280px;
+}
+
+#top .switcher_right.avia_styleswitcher{
+right:-75px;
+left:auto;
+top:23px;
+padding:20px 100px 20px 20px;
+position: fixed;
+}
+
+#top .display_switch_false{
+left:-327px;
+}
+
+#top .switcher_right.display_switch_false{
+right:-327px;
+left:auto;
+}
+
+.avia_styleswitch_form{
+width:200px;
+position: relative;
+}
+
+#top .avia_styleswitcher input, #top .avia_styleswitcher select{
+border:1px solid #e1e1e1;
+padding:5px;
+color:#777;
+margin: 3px 0 10px 0;
+border-radius:3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+width:198px;
+min-width: 100px
+}
+
+#top .avia_styleswitcher input{
+background: #fff;
+
+}
+
+#top .avia_styleswitcher .avia_submit{
+cursor: pointer;
+}
+
+#top .avia_styleswitcher .avia_submit:hover{
+cursor: pointer;
+background: #888;
+color: #fff;
+}
+
+#top .avia_styleswitcher .strongblock{
+display:block;
+}
+
+.avia_styleswitcher .avia_hr{
+display: block;
+clear: both;
+border-bottom: 1px solid #e1e1e1;
+margin:5px 0 10px 0;
+}
+
+.avia_styleswitcher strong{
+color:#555;
+}
+
+
+
+.avia_styleswitcher .openclose {
+    cursor: pointer;
+    display: block;
+    height: 301px;
+    position: absolute;
+    right: -34px;
+    width: 35px;
+    background: transparent url(button.png) no-repeat top left;
+}
+
+.avia_styleswitcher.switcher_right .openclose {
+    cursor: pointer;
+    display: block;
+    height: 301px;
+    position: absolute;
+    left: -34px;
+    right:auto
+    width: 35px;
+    background: transparent url(button_reverse.png) no-repeat top left;
+}
+
+
+
+#top .openclosedisplay_switch{
+
+
+}
+
+#top .openclosedisplay_switch_false{
+
+}
+
+
+#top .avia_styleswitcher .avia_style_wrap input, #top .avia_styleswitcher .avia_style_wrap select{
+margin:0;
+}
+
+.avia_styleswitcher .style_sw_heading{
+display: block;
+clear: both;
+margin-top:3px;
+}
+
+.avia_styleswitcher .link_controller_list{
+overflow: hidden;
+clear: both;
+padding:0 0 10px 0;
+}
+
+.avia_styleswitcher .link_controller_list a{
+display:block;
+margin:0 1px 1px 0;
+color: #fff;
+padding:5px 0;
+float: left;
+width:65px;
+text-align: center;
+text-decoration: none;
+}
+
+.avia_styleswitcher .link_controller_list_mini a{
+width:49px;
+}
+
+.avia_styleswitcher .link_controller_list_big a{
+width:98px;
+}
+
+
+
+.avia_styleswitcher .link_controller_list a.avia_link_controller_active, .avia_styleswitcher .link_controller_list a:hover{
+box-shadow: inset 0 0 0 2px  rgba(255, 255, 255, 0.3);
+-webkit-box-shadow: inset 0 0 0 2px   rgba(255, 255, 255, 0.3);
+-moz-box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);
+text-decoration: underline;
+}
+
+.avia_styleswitcher .avia_loader {
+height: 12px;
+width: 12px;
+display: block;
+position: absolute;
+background: transparent url(loading.gif) no-repeat top left;
+bottom: 21px;
+right: 25px;
+visibility: hidden;
+}
+
+body .avia_style_switch_reset_style{
+color:#888;		
+}
+
